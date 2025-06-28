@@ -1,0 +1,8 @@
+Manipulator:
+  type: UR
+  comms: simulated
+  rate: 25 # Hz
+
+StateMachine:
+  rate: 10 # Hz
+
