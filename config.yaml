@@ -1,8 +1,13 @@
 Manipulator:
   type: UR
   comms: simulated
-  rate: 25 # Hz
+  rate: 10 # Hz
+
+  # TODO: put these here or make a config file in each manipulator specific folder?
+  initial_positions: [0, -1.57, 0, 0, 0, 0]
+  accel_limits: [3.14, 3.14, 3.14, 3.14, 3.14, 3.14]
+  jerk_limits: [20, 20, 20, 20, 20, 20]
 
 StateMachine:
-  rate: 10 # Hz
+  rate: 25 # Hz
 
