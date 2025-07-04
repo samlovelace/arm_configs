@@ -11,3 +11,5 @@ Manipulator:
 StateMachine:
   rate: 25 # Hz
 
+Planning:
+  type: mobile
