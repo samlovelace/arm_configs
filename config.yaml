@@ -16,3 +16,4 @@ Planning:
 
 GraspPlanning:
   type: pca
+  visualize: true
