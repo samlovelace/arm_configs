@@ -13,3 +13,6 @@ StateMachine:
 
 Planning:
   type: mobile
+
+GraspPlanning:
+  type: pca
