@@ -1,5 +1,5 @@
 Manipulator:
-  name: UR
+  name: ur10
 
 StateMachine:
   rate: 25 # Hz
