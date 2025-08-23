@@ -9,4 +9,4 @@ Planning:
 
 GraspPlanning:
   type: pca
-  visualize: true
+  visualize: false
