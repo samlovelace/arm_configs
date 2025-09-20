@@ -2,5 +2,5 @@
 
 # List of required packages
 DEPENDENCIES=(
-	libyamlcpp-dev
+	libyaml-cpp-dev
 )
