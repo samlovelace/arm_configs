@@ -4,10 +4,11 @@ rate: 10 # Hz
 urdf: manipulator.urdf
 irm: IRM.bin
 initial_positions: [0, -1.57, 0, 0, 0, 0, 0, 0]
-accel_limits: [3.14, 3.14, 3.14, 3.14, 3.14, 3.14, 3.14, 3.14]
-jerk_limits: [20, 20, 20, 20, 20, 20, 20, 20]
+accel_limits: [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]
+jerk_limits: [5, 5, 5, 5, 5, 5, 5, 5]
+vel_limit_fraction: 0.75 # 0-1 
 
 mount:
-  position: [-0.2, 0, 0.3] #xyz
-  quaternion: [0, 0, 0, 1] #xyz w
+  position: [-0.2, 0, 0.3] # xyz
+  quaternion: [0, 0, 0, 1] # xyz w
 
