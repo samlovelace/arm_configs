@@ -19,3 +19,11 @@ deploy:
 
 stow:
   pos: [0, 0, 0, 0, 0, 0]
+
+comms_configs:
+  device_name: /dev/ttyUSB0
+  baud_rate: 2000000
+  protocol_version: 1
+  motor_ids: [1, 2]
+  max_torque: [0.35, 0.35]
+  step_conversion: [0.088, 0.088] # conversion from steps to degrees
